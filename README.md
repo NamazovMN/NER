@@ -2,7 +2,7 @@
 ## Goal
 The main goal of the project is, to classify tokens (words/phrases) in the provided sentences ino 4 classes of Named Entity Recognition, namely PER for person, ORG for Organization, LOC for location and O for others.
 ## Model 
-LSTM model along with FCN on the top of it was built for the classification task. If you check [model.py](model.py), you can see that model size is dynamic and is defined by user. I will mention how to do it in configuration section, later.
+LSTM model along with FCN on the top of it was built for the classification task. If you check [model.py](src/model.py), you can see that model size is dynamic and is defined by user. I will mention how to do it in configuration section, later.
 ## Dataset
 There is ambiguity about the confidentiality of the dataset, so that I cannot publish. I was provided by this dataset thanks to my academic classes. However I will provide playground techniques that you can check the resulting model.
 ## Playground
@@ -11,7 +11,7 @@ In order to test model you can follow the steps that are given:
 * Them, you should run the following snippet to install all required dependencies: 
   ```python
   python main.py -r requirements.txt
-* Now you are all set to run the following snippet (Note: The source code can be found in [playground.py](playground.py).) 
+* Now you are all set to run the following snippet (Note: The source code can be found in [playground.py](src/playground.py).) 
   ```python
   python main.py --playground_only --experiment_number 27 --play_bis --cased --clean_stops --clean_punctuation
   

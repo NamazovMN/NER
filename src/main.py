@@ -35,7 +35,7 @@ def get_max_length(config_parameters: dict) -> int:
     :param config_parameters: initial configuration parameters for the project
     :return: maximum sequence length in the train dataset
     """
-    config_path = os.path.join('train_results', f"experiment_{config_parameters['experiment_number']}")
+    config_path = os.path.join('../train_results', f"experiment_{config_parameters['experiment_number']}")
 
     if config_parameters['playground_only']:
         if not os.path.exists(config_path):
