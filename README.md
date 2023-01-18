@@ -20,6 +20,11 @@ In order to test model you can follow the steps that are given:
  
  I hope you will enjoy it!
  
+ ## Trained model
+ These following data can be downloaded from corresponding links, since they exceeds size limitation of GitHub: https://drive.google.com/drive/folders/1qS6Hb_eZdWiwc9NMSoEJc5jJztpksxKE?usp=sharing
+ model_structure.pickle: you need to put it into the corresponding experiment directory
+ model checkpoint: you need to put it into the checkpoints directory in the corresponding experiment path
+ 
  ***Regards,***
 
 ***Mahammad Namazov***
