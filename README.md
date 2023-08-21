@@ -8,9 +8,9 @@ There is ambiguity about the confidentiality of the dataset, so that I cannot pu
 ## Playground
 In order to test model you can follow the steps that are given: 
 * Initially, you need to pull the project into your local machine; 
-* Them, you should run the following snippet to install all required dependencies: 
+* Then, you should run the following snippet to install all required dependencies: 
   ```python
-  python main.py -r requirements.txt
+  !pip install -r requirements.txt
 * Now you are all set to run the following snippet (Note: The source code can be found in [playground.py](src/playground.py).) 
   ```python
   python main.py --playground_only --experiment_number 27 --play_bis --cased --clean_stops --clean_punctuation
